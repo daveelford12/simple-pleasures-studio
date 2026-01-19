@@ -1,0 +1,126 @@
+<!-- File: prints/good-enough-counts.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Good Enough Counts — Simple Pleasures Studio</title>
+    <meta
+      name="description"
+      content="A gentle watercolor reminder that showing up imperfectly still counts."
+    />
+
+    <!-- IMPORTANT: product pages live in /prints, so stylesheet path must be ../ -->
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="../index.html">Simple Pleasures Studio</a>
+
+        <nav class="site-nav" aria-label="Primary">
+          <a href="../prints.html">Prints</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <p class="breadcrumbs">
+        <a href="../prints.html">← Back to Prints</a>
+      </p>
+
+      <section class="print-detail" aria-label="Print details">
+        <div class="print-detail-grid">
+          <!-- Image -->
+          <figure class="print-detail-media">
+            <img
+              src="../assets/images/prints/good-enough-counts.jpg"
+              alt="Good Enough Counts print by Simple Pleasures Studio"
+              loading="eager"
+              decoding="async"
+            />
+          </figure>
+
+          <!-- Copy / Purchase -->
+          <div class="print-detail-content">
+            <header class="print-detail-header">
+              <h1 class="h1">Good Enough Counts</h1>
+              <p class="muted">
+                A soft, steady nudge for the days you’re running on “close
+                enough” — and that still deserves credit.
+              </p>
+            </header>
+
+            <!-- Quick facts -->
+            <dl class="print-facts" aria-label="Print specifications">
+              <div>
+                <dt>Collection</dt>
+                <dd>Morning Survival</dd>
+              </div>
+
+              <div>
+                <dt>Format</dt>
+                <dd>Fine art print (unframed)</dd>
+              </div>
+
+              <div>
+                <dt>Paper</dt>
+                <dd>Premium matte / museum-style option (varies by listing)</dd>
+              </div>
+
+              <div>
+                <dt>Sizes</dt>
+                <dd>Available in three sizes: 8×10″ · 12×16″ · 16×20″</dd>
+              </div>
+
+              <div>
+                <dt>Shipping</dt>
+                <dd>
+                  Printed to order, shipped with care — see listing for current
+                  pricing
+                </dd>
+              </div>
+            </dl>
+
+            <!-- CTAs -->
+            <div class="cta-row">
+              <a
+                class="button"
+                href="https://simple-pleasures-studio.printify.me/product/26317005"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View full listing
+              </a>
+
+              <a class="button ghost" href="../prints.html"
+                >Back to all prints</a
+              >
+            </div>
+
+            <!-- Notes -->
+            <div class="note-card">
+              <p class="small">
+                Note: Colors may vary slightly between screens and print. Frames
+                shown in mockups (if any) are for styling only.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Simple Pleasures Studio</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
